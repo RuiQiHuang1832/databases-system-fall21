@@ -1,0 +1,38 @@
+i. Rui Qi Huang, 917292550
+ii. https://discord.gg/dzNQZ5SE6S
+iii. (Main) Invite Link: https://replit.com/join/cryxmlohpv-benhuang1
+     (Secondary) Another Link: https://replit.com/@BenHuang1/rhuang10bot#main.py 
+iv. Bot Commands:
+1. /bloodbank-donors <amount> <i>  
+2. /hospital-patients <r> <insurance> 
+3. /hospital-receptions <donor> <amount>
+4. /patients-hospital <type> <year> 
+5. /bloodbank-born <year-mo-day> <type> <amt> 
+6. /hospital-walkin <incentive> <type>
+7. /hospital-donor-exam <p/f> <blood> 
+---------------------------------------------
+Examples:
+1. /bloodbank-donors 234 yes
+2. /hospital-patients r no
+3. /hospital-receptions yes 10
+4. /patients-hospital A 2002
+5. /bloodbank-born 1999-11-14 B 6444 
+6. /hospital-walkin food A
+7. /hospital-donor-exam fail 20
+
+
+v. Business Rules: 
+
+1. For each blood bank, find the number of Donors that have donated more than x amount of blood and have insurance within the year.
+
+2. For each hospital, find the number of patients that do not have insurance but still register with at least one hospital.
+
+3. For each hospital, find all receptions that are also blood donors and have donated more than x amount of blood within the year.
+
+4. Find all patients within a hospital that have been a patient since X, and passed the exam with blood type X
+
+5. Within a hospital, find all patients that have received at least incentive X and have a blood type of X, that would be considered a Walkin (no insurance)
+
+6.Find all Donors that have passed the exam, donated x amount of blood and have also registered within a hospital as a patient.
+
+7. For each blood bank, find all patients born after X with type Y blood type and donated more than X amount of blood
